@@ -18,7 +18,7 @@ spec:
       - name: healthcareapp-eta-container
         image: rajat0309/healthcareapp-eta-app
         ports:
-        - containerPort: 8081
+        - containerPort: 8082
 ---
 apiVersion: v1
 kind: Service
