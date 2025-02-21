@@ -18,7 +18,7 @@ spec:
       - name: healthcareapp-eta-container
         image: rajat0309/healthcareapp-eta-app
         ports:
-        - containerPort: 8082
+        - containerPort: 8083
 ---
 apiVersion: v1
 kind: Service
@@ -33,5 +33,5 @@ spec:
   type: NodePort
   ports:
   - nodePort: 31031 
-    port: 8082
-    targetPort: 8082
+    port: 8083
+    targetPort: 8083
